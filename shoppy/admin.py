@@ -1,3 +1,5 @@
 from django.contrib import admin
+from shoppy.models import Genres, Movies
 
-# Register your models here.
+admin.site.register(Genres)
+admin.site.register(Movies)
